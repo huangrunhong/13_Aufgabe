@@ -1,0 +1,23 @@
+@media screen and (max-width: 400px) {
+  header {
+    padding-inline: 15px;
+  }
+  main {
+    padding-inline: 15px;
+    columns: 1;
+    /* gap: 0; */
+  }
+
+  main p {
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .information {
+    padding-inline: 15px;
+    gap: 16px;
+  }
+  .formular div {
+    padding-inline: 15px;
+    width: 100%;
+  }

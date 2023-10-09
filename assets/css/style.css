@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../font/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../font/Roboto-Regular.ttf);
+}
+h1 {
+  font-family: Roboto-Bold;
+  font-size: 36px;
+}
+body {
+  width: 100%;
+  background-color: #ebeae9;
+}
+header {
+  padding-inline: 166px;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 42px;
+  /* margin-bottom: 128px; */
+}
+header .menu img {
+  width: 27px;
+}
+header .logo img {
+  height: 22px;
+}
+header h1 {
+  text-transform: uppercase;
+  margin-top: 128px;
+  width: 90%;
+}
+header p {
+  padding: 49px 0;
+  margin-top: 7px;
+  margin-bottom: 64px;
+  font-family: Roboto-Regular;
+  font-size: 22px;
+  width: 90%;
+}
+main {
+  padding-inline: 166px;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  columns: 3;
+  gap: 20px;
+}
+main div {
+  margin-bottom: 20px;
+  position: relative;
+}
+main img {
+  width: 100%;
+}
+main p {
+  display: none;
+}
+
+main a {
+  text-decoration: none;
+  align-items: center;
+}
+main div:hover {
+  filter: grayscale(100%);
+  p {
+    display: block;
+    position: absolute;
+    top: 50%;
+  }
+}
+
+footer {
+  background-color: #afafaf;
+  margin-top: 20px;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 180px; */
+  padding: 112px 466px 16px 165px;
+  margin-bottom: 50px;
+}
+.information div {
+  width: 271px;
+}
+.information li {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  list-style: none;
+}
+.information a {
+  text-decoration: none;
+  color: black;
+  line-height: 28px;
+}
+.information p {
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  line-height: 28px;
+}
+.fomular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+}
+.fomular h1 {
+  margin-bottom: 8px;
+}
+.fomular div {
+  font-family: Roboto-Regular;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-bottom: 20px;
+}
+.fomular div label {
+  margin-bottom: 9px;
+}
+.fomular div input,
+textarea {
+  padding: 10px 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 100%;
+}
+
+.fomular div button {
+  padding: 11px 0;
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  border: none;
+  background-color: #ebeae9;
+  margin-bottom: 132px;
+  width: 100%;
+}
