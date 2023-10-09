@@ -58,9 +58,12 @@ main {
 main div {
   margin-bottom: 20px;
   position: relative;
+  align-items: center;
+  text-align: center;
 }
 main img {
   width: 100%;
+  display: block;
 }
 main p {
   display: none;
@@ -72,11 +75,19 @@ main a {
 }
 main div:hover {
   filter: grayscale(100%);
-  p {
-    display: block;
-    position: absolute;
-    top: 50%;
-  }
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+main div:hover p {
+  /* white-space: nowrap; */
+  font-family: Roboto-Regular;
+  font-size: 20px;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 footer {
